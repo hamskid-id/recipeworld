@@ -76,7 +76,7 @@ export const RecipePage =()=>{
                                     />
                                     <div className='p-4 pt-0  row'>
                                         <div className="col-md-6">
-                                            <Link to={'/home'} className='btn btn-md btn-danger mb-2'>
+                                            <Link to={'/hamskid-id/thirdRecipe'} className='btn btn-md btn-danger mb-2'>
                                                 Back to home
                                             </Link>
                                         </div>

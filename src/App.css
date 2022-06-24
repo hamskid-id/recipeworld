@@ -27,9 +27,6 @@ img{
 .productDiv{
   border-color: 2px solid maroon;
 }
-.carousel-indicators,.info-div{
-  background: 0%;
-}
 .slideImg{
   height:10rem;
   object-fit: cover;

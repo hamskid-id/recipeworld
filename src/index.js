@@ -18,7 +18,7 @@ const RoutesContainer = ()=>{
     <Provider store={store} >
       <Router>
         <Routes>
-          <Route exact path='/' element={<DashBoard/>} />
+          <Route path='/hamskid-id/thirdRecipe' element={<DashBoard/>} />
           <Route exact path='/recipePage/:id' element={<RecipePage/>} />
           <Route exact path='/authPage' element={<AuthPage/>} />
           <Route exact path='/registerpage' element={<RegisterPage/>} />

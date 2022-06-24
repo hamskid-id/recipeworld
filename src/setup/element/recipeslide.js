@@ -11,13 +11,13 @@ export const RecipeSlide =()=>{
                     </div>
                     <div className="carousel-inner">
                         <div className="carousel-item active">
-                            <img src="https://res.cloudinary.com/hamskid/image/upload/v1655990878/Recipe/lp5_fnmruk.jpg" className="d-block w-100" style={{zIndex:'1'}} alt="objcet not found" style={{height:'30rem',objectFit:'cover'}}/>
+                            <img src="https://res.cloudinary.com/hamskid/image/upload/v1655990878/Recipe/lp5_fnmruk.jpg" className="d-block w-100"  alt="objcet not found" style={{height:'30rem',objectFit:'cover'}}/>
                         </div>
                         <div className="carousel-item">
-                            <img src="https://res.cloudinary.com/hamskid/image/upload/v1655990852/Recipe/19_t0hk0b.jpg" className="d-block w-100" alt="objcet not found" style={{height:'30rem',objectFit:'cover'}}/>
+                            <img src="https://res.cloudinary.com/hamskid/image/upload/v1655990852/Recipe/19_t0hk0b.jpg" className="d-block w-100 slide2" alt="objcet not found" style={{height:'30rem',objectFit:'cover'}}/>
                         </div>
                         <div className="carousel-item">
-                            <img src="https://res.cloudinary.com/hamskid/image/upload/v1655990827/Recipe/7_wmwowu.jpg" className="d-block w-100" alt="objcet not found" style={{height:'30rem',objectFit:'cover'}}/>
+                            <img src="https://res.cloudinary.com/hamskid/image/upload/v1655990827/Recipe/7_wmwowu.jpg" className="d-block w-100 slide3" alt="objcet not found" style={{height:'30rem',objectFit:'cover'}}/>
                         </div>
                         
                     </div>

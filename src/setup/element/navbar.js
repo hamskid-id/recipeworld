@@ -15,7 +15,7 @@ export const NavBar =({tittle})=>{
     }
      useEffect(()=>{
        !initialRend && dispatch(sendCartData(cartItems))
-    },[cartItems, dispatch])
+    },[cartItems, dispatch,initialRend])
 
     return(
         <>
