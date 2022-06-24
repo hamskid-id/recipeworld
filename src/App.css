@@ -1,12 +1,83 @@
 .App {
   text-align: center;
 }
-
+*{
+  font-family:monospace;
+  color:black;
+}
+body{
+  background-color: maroon;
+}
+img{
+  z-index: -1;
+}
+.ashInput{
+  background-color: whitesmoke;
+  border-radius: 10px;
+  border-color: whitesmoke;
+}
+.black{
+  background:black;
+}
+.addInput{
+  border-color: whitesmoke;
+  background-color: whitesmoke;
+  border-radius: 5px;
+}
+.productDiv{
+  border-color: 2px solid maroon;
+}
+.carousel-indicators,.info-div{
+  background: 0%;
+}
+.slideImg{
+  height:10rem;
+  object-fit: cover;
+}
+.toastDiv{
+  position:fixed;
+  top:45%;
+  left:45%;
+  font-size: 25px;
+  width: fit-content;
+  padding: 1rem;
+}
+.maroon{
+  background-color: maroon;
+}
+.carousel-item-next, .carousel-item-prev, .carousel-item.active {
+    display: flex;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
+.authImageWidth{
+  width:40%;
+}
+.w-30{
+  width:25%;
+}
+.nav{
+  flex-direction:column;
+  align-items:start;
+}
+.nav-pills .nav-link.active{
+  background-color: seagreen;
+}
+.usertext{
+  font-size:15px;
+}
+.topratedtext{
+  position:absolute;
+  top:60%;
+}
+.topImg{
+    filter: brightness(0.8);
+}
+.productDivadj{
+  height:max-content
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -23,9 +94,11 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.w-md-50{
+  width:50%;
+}
+.textHead{
+  font-size:25px;
 }
 
 @keyframes App-logo-spin {
@@ -36,3 +109,59 @@
     transform: rotate(360deg);
   }
 }
+@media only screen and (min-width:320px) and (max-width:767px){
+  .buttonres{
+    padding:0 3px;
+  }
+  .textHead{
+    font-size: 15px;
+  }
+  .ashInput{
+    width:100%;
+  }
+  .tabContentAdj{
+    margin-top: 4rem;
+  }
+  .profileImg,.profileDiv{
+    width:40%;
+  }
+  .crImg{
+    width:30%;
+  }
+  .btnWidth{
+    width:50%;
+  }
+  .topratedtext p{
+    font-size:15px;
+  }
+  .request{
+    font-size:10px;
+  }
+  .toastDiv{
+    font-size: 15px;
+    left: 15%;
+  }
+}
+@media only screen and (min-width:768px) and (max-width:1023px){
+  .topratedtext p{
+    font-size:10px;
+  }
+  .usertext{
+    font-size:10px;
+  }
+  .topratedtext{
+    top:40%;
+  }
+  .post{
+    font-size:1rem;
+  }
+  .date{
+    font-size:0.8rem;
+  }
+}
+@media only screen and (min-width:1024px) and (max-width:1043px){
+  .topratedtext{
+    top:30%;
+  }
+  
+  }

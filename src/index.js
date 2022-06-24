@@ -1,17 +1,43 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import ReactDom from 'react-dom';
+import {BrowserRouter as Router, Routes, Route, } from 'react-router-dom';
+import { DashBoard } from './setup/dashboard';
+import { RecipePage } from './setup/recipeRouterPage';
+import { AuthPage } from './setup/authpage';
+import {RegisterPage} from './setup/registerpage';
+import {LoginPage} from './setup/loginpage';
+import {  Provider} from 'react-redux';
+import store from './setup/store/index';
+import './App.css';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+
+const RoutesContainer = ()=>{
+  return(
+    <>
+    <Provider store={store} >
+      <Router>
+        <Routes>
+          <Route exact path='/' element={<DashBoard/>} />
+          <Route exact path='/recipePage/:id' element={<RecipePage/>} />
+          <Route exact path='/authPage' element={<AuthPage/>} />
+          <Route exact path='/registerpage' element={<RegisterPage/>} />
+          <Route exact path='/loginpage' element={<LoginPage/>} />
+          </Routes>
+      </Router>
+    </Provider>
+      
+    </>
+
+  )
+    /*
+    <Provider store ={store}>
+      <Auth/>
+    </Provider>
+    </>
+    */
+} 
+ReactDom.render(<RoutesContainer/>,document.getElementById('root'));
+
+
+
