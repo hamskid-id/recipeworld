@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/hamskid-id/recipeworld/static/css/main.aa80f860.chunk.css",
+    "main.js": "/hamskid-id/recipeworld/static/js/main.aed69452.chunk.js",
+    "main.js.map": "/hamskid-id/recipeworld/static/js/main.aed69452.chunk.js.map",
+    "runtime-main.js": "/hamskid-id/recipeworld/static/js/runtime-main.deca9530.js",
+    "runtime-main.js.map": "/hamskid-id/recipeworld/static/js/runtime-main.deca9530.js.map",
+    "static/js/2.13f6cc3d.chunk.js": "/hamskid-id/recipeworld/static/js/2.13f6cc3d.chunk.js",
+    "static/js/2.13f6cc3d.chunk.js.map": "/hamskid-id/recipeworld/static/js/2.13f6cc3d.chunk.js.map",
+    "index.html": "/hamskid-id/recipeworld/index.html",
+    "static/css/main.aa80f860.chunk.css.map": "/hamskid-id/recipeworld/static/css/main.aa80f860.chunk.css.map",
+    "static/js/2.13f6cc3d.chunk.js.LICENSE.txt": "/hamskid-id/recipeworld/static/js/2.13f6cc3d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.deca9530.js",
+    "static/js/2.13f6cc3d.chunk.js",
+    "static/css/main.aa80f860.chunk.css",
+    "static/js/main.aed69452.chunk.js"
+  ]
+}
